@@ -1,0 +1,9 @@
+PIC PS2 Keyboard Library
+
+This library allows you to use a keyboard for user input. The library has been ported from the Arduino PS2Keyboard library
+by Ivan de Jesus Deras (ideras@gmail.com).
+
+You can find the original Arduino library at:
+http://www.pjrc.com/teensy/td_libs_PS2Keyboard.html
+
+Tested only on PIC16F887 !
