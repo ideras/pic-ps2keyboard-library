@@ -29,6 +29,7 @@
 #include <stdint.h>
 
 #define PROGMEM
+#define BIT(pos, port) ((((unsigned) &port)*8) + pos)
 
 typedef unsigned char bool;
 #define true 1
