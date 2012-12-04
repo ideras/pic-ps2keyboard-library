@@ -70,10 +70,9 @@ void ps2interrupt(void)
 	if (count_time > 1) {
 		bitcount = 0;
 		incoming = 0;
+
                 count_time = 0;
 	}
-	CCPR1H = 0;
-        CCPR1L = 0;
         
 	n = bitcount - 1;
 	if (n <= 7) {
